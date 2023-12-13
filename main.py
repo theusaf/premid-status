@@ -5,27 +5,27 @@ import requests
 import os
 
 items_to_check = {
-  "...": {
+  [os.environ["FRONTEND_HASH"]]: {
     "name": "Frontend",
     "url": "premid.app"
   },
-  "...": {
+  [os.environ["DOCS_HASH"]]: {
     "name": "Docs",
     "url": "docs.premid.app"
   },
-  "...": {
+  [os.environ["DL_HASH"]]: {
     "name": "Downloads",
     "url": "dl.premid.app"
   },
-  "...": {
+  [os.environ["CDN_HASH"]]: {
     "name": "CDN",
     "url": "cdn.rcd.gg"
   },
-  "...": {
+  [os.environ["API_HASH"]]: {
     "name": "API",
     "url": "api.premid.app"
   },
-  "...": {
+  [os.environ["PD_HASH"]]: {
     "name": "PD",
     "url": "pd.premid.app"
   }

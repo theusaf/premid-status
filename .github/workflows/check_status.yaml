@@ -20,3 +20,9 @@ jobs:
         env:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
+          FRONTEND_HASH: ${{ secrets.FRONTEND_HASH }}
+          DOCS_HASH: ${{ secrets.DOCS_HASH }}
+          DL_HASH: ${{ secrets.DL_HASH }}
+          CDN_HASH: ${{ secrets.CDN_HASH }}
+          API_HASH: ${{ secrets.API_HASH }}
+          PD_HASH: ${{ secrets.PD_HASH }}
